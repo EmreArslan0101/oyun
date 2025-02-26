@@ -1,4 +1,5 @@
 #include "everything.h"
+#include <stdio.h>
 
 void move(character_t_fe* character, int x,int y) {
     character->pos_x += x;
