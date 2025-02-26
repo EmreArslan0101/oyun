@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/emre/Desktop/YAZILIM_MUH/oyun/build",
-  "command": "/usr/bin/clang-13 -I/home/emre/Desktop/YAZILIM_MUH/oyun/main/include -g -std=gnu11 -o CMakeFiles/testC.dir/main/main.c.o -c /home/emre/Desktop/YAZILIM_MUH/oyun/main/main.c",
+  "command": "/usr/bin/clang-13 -I/home/emre/Desktop/YAZILIM_MUH/oyun/main/include -g -std=gnu11 -o CMakeFiles/oyunProj.dir/main/main.c.o -c /home/emre/Desktop/YAZILIM_MUH/oyun/main/main.c",
   "file": "/home/emre/Desktop/YAZILIM_MUH/oyun/main/main.c"
+},
+{
+  "directory": "/home/emre/Desktop/YAZILIM_MUH/oyun/build",
+  "command": "/usr/bin/clang-13 -I/home/emre/Desktop/YAZILIM_MUH/oyun/main/include -g -std=gnu11 -o CMakeFiles/oyunProj.dir/main/include/everything.c.o -c /home/emre/Desktop/YAZILIM_MUH/oyun/main/include/everything.c",
+  "file": "/home/emre/Desktop/YAZILIM_MUH/oyun/main/include/everything.c"
 }
 ]

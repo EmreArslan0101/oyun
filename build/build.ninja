@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: testC
+# Project: oyunProj
 # Configurations: Debug
 # =============================================================================
 
@@ -41,36 +41,43 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/emre/Desktop/YAZILIM_MUH/oyun/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target testC
+# Object build statements for EXECUTABLE target oyunProj
 
 
 #############################################
-# Order-only phony target for testC
+# Order-only phony target for oyunProj
 
-build cmake_object_order_depends_target_testC: phony || CMakeFiles/testC.dir
+build cmake_object_order_depends_target_oyunProj: phony || CMakeFiles/oyunProj.dir
 
-build CMakeFiles/testC.dir/main/main.c.o: C_COMPILER__testC_Debug /home/emre/Desktop/YAZILIM_MUH/oyun/main/main.c || cmake_object_order_depends_target_testC
-  DEP_FILE = CMakeFiles/testC.dir/main/main.c.o.d
+build CMakeFiles/oyunProj.dir/main/main.c.o: C_COMPILER__oyunProj_Debug /home/emre/Desktop/YAZILIM_MUH/oyun/main/main.c || cmake_object_order_depends_target_oyunProj
+  DEP_FILE = CMakeFiles/oyunProj.dir/main/main.c.o.d
   FLAGS = -g -std=gnu11
   INCLUDES = -I/home/emre/Desktop/YAZILIM_MUH/oyun/main/include
-  OBJECT_DIR = CMakeFiles/testC.dir
-  OBJECT_FILE_DIR = CMakeFiles/testC.dir/main
+  OBJECT_DIR = CMakeFiles/oyunProj.dir
+  OBJECT_FILE_DIR = CMakeFiles/oyunProj.dir/main
+
+build CMakeFiles/oyunProj.dir/main/include/everything.c.o: C_COMPILER__oyunProj_Debug /home/emre/Desktop/YAZILIM_MUH/oyun/main/include/everything.c || cmake_object_order_depends_target_oyunProj
+  DEP_FILE = CMakeFiles/oyunProj.dir/main/include/everything.c.o.d
+  FLAGS = -g -std=gnu11
+  INCLUDES = -I/home/emre/Desktop/YAZILIM_MUH/oyun/main/include
+  OBJECT_DIR = CMakeFiles/oyunProj.dir
+  OBJECT_FILE_DIR = CMakeFiles/oyunProj.dir/main/include
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target testC
+# Link build statements for EXECUTABLE target oyunProj
 
 
 #############################################
-# Link the executable testC
+# Link the executable oyunProj
 
-build testC: C_EXECUTABLE_LINKER__testC_Debug CMakeFiles/testC.dir/main/main.c.o
+build oyunProj: C_EXECUTABLE_LINKER__oyunProj_Debug CMakeFiles/oyunProj.dir/main/main.c.o CMakeFiles/oyunProj.dir/main/include/everything.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/testC.dir
+  OBJECT_DIR = CMakeFiles/oyunProj.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = testC
-  TARGET_PDB = testC.dbg
+  TARGET_FILE = oyunProj
+  TARGET_PDB = oyunProj.dbg
 
 
 #############################################
@@ -106,7 +113,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/emre/Desktop/YAZILIM_MUH/oyun/build
 
-build all: phony testC
+build all: phony oyunProj
 
 # =============================================================================
 # Built-in targets

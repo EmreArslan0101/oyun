@@ -116,7 +116,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=testC
+CMAKE_PROJECT_NAME:STATIC=oyunProj
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/llvm-ranlib-13
@@ -181,13 +181,13 @@ CMAKE_STRIP:FILEPATH=/usr/bin/llvm-strip-13
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-testC_BINARY_DIR:STATIC=/home/emre/Desktop/YAZILIM_MUH/oyun/build
+oyunProj_BINARY_DIR:STATIC=/home/emre/Desktop/YAZILIM_MUH/oyun/build
 
 //Value Computed by CMake
-testC_IS_TOP_LEVEL:STATIC=ON
+oyunProj_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-testC_SOURCE_DIR:STATIC=/home/emre/Desktop/YAZILIM_MUH/oyun
+oyunProj_SOURCE_DIR:STATIC=/home/emre/Desktop/YAZILIM_MUH/oyun
 
 
 ########################

@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "testC",
+					"name" : "oyunProj",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "testC::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testC-Debug-02179da176495332e294.json",
-					"name" : "testC",
+					"id" : "oyunProj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-oyunProj-Debug-6cc948fa6545a5683263.json",
+					"name" : "oyunProj",
 					"projectIndex" : 0
 				}
 			]

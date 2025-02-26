@@ -703,7 +703,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "testC"
+			"value" : "oyunProj"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -986,7 +986,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "testC_BINARY_DIR",
+			"name" : "oyunProj_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -998,7 +998,7 @@
 			"value" : "/home/emre/Desktop/YAZILIM_MUH/oyun/build"
 		},
 		{
-			"name" : "testC_IS_TOP_LEVEL",
+			"name" : "oyunProj_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1010,7 +1010,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "testC_SOURCE_DIR",
+			"name" : "oyunProj_SOURCE_DIR",
 			"properties" : 
 			[
 				{
