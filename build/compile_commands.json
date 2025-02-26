@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/emre/Desktop/YAZILIM_MUH/oyun/build",
+  "command": "/usr/bin/clang-13 -g -std=gnu11 -o CMakeFiles/testC.dir/main/main.c.o -c /home/emre/Desktop/YAZILIM_MUH/oyun/main/main.c",
+  "file": "/home/emre/Desktop/YAZILIM_MUH/oyun/main/main.c"
+}
+]
